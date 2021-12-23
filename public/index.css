@@ -1,0 +1,47 @@
+body {
+    color: red;
+}
+
+.body {
+    display: flex;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(98, 155, 122, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+
+a {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(98, 155, 122, 0.219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.get {
+    font-size: large;
+    letter-spacing: 10px;
+}
